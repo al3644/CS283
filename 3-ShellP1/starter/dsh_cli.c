@@ -81,7 +81,7 @@ int main()
 	 //parse
 	 rc = build_cmd_list(cmd_buff, &clist);
 	
-	 //if statements for cases 
+	 //statements for cases 
 	 switch(rc){
 		 case OK:
 			 printf(CMD_OK_HEADER, clist.num);
